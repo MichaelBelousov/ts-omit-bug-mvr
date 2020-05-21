@@ -4,7 +4,8 @@
   "description": "minimal viable reproduction of typescript issue 34793",
   "main": "index.js",
   "scripts": {
-    "test": "tsc -b"
+    "test": "tsc -d index.ts",
+    "build": "tsc -d index.ts"
   },
   "repository": {
     "type": "git",

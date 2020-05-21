@@ -1,4 +1,3 @@
-# ts
-*.d.ts
 package-lock.json
 node_modules
+.*.sw[po]
