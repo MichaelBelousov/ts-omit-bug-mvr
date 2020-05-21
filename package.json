@@ -24,7 +24,16 @@
   },
   "homepage": "https://github.com/MichaelBelousov/ts-omit-bug-mvr#readme",
   "dependencies": {
+    "@bentley/frontend-authorization-client": "^2.1.0-dev.17",
+    "@bentley/geometry-core": "^2.1.0-dev.17",
+    "@bentley/imodelhub-client": "^2.1.0-dev.17",
     "@bentley/imodeljs-frontend": "^2.1.0-dev.17",
+    "@bentley/imodeljs-i18n": "^2.1.0-dev.17",
+    "@bentley/imodeljs-quantity": "^2.1.0-dev.17",
+    "@bentley/orbitgt-core": "^2.1.0-dev.17",
+    "@bentley/product-settings-client": "^2.1.0-dev.17",
+    "@bentley/ui-abstract": "^2.1.0-dev.17",
+    "@bentley/webgl-compatibility": "^2.1.0-dev.17",
     "typescript": "^4.0.0-dev.20200521"
   }
 }
