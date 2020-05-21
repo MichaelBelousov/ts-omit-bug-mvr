@@ -17,11 +17,22 @@ type Rebound<Type extends object, NewThis> = {
 import { Marker } from "@bentley/imodeljs-frontend";
 
 export type MyTypeWithLibOmit = Rebound<
-  Omit<MakeRequired<Marker, "worldLocation">, "image"> & { image: string },
+  Omit<MakeRequired<Marker, "worldLocation">, "image"> & {
+    image: string;
+    other: number;
+  },
   Marker
 >;
 
 export type MyTypeWithOmit2 = Rebound<
-  Omit2<MakeRequired<Marker, "worldLocation">, "image"> & { image: string },
+  Omit2<MakeRequired<Marker, "worldLocation">, "image"> & {
+    image: string;
+    other: number;
+  },
   Marker
 >;
+
+export function myFuncWithLibOmit(param: MyTypeWithLibOmit) {}
+export function myFuncWithOmit2(param: MyTypeWithOmit2) {}
+export const myConstWithLibOmit = (param: MyTypeWithLibOmit) => {};
+export const myConstWithOmit2 = (param: MyTypeWithOmit2) => {};
