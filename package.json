@@ -1,0 +1,26 @@
+{
+  "name": "ts-omit-issue-34793-mvr",
+  "version": "0.1.0",
+  "description": "minimal viable reproduction of typescript issue 34793",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelBelousov/ts-omit-bug-mvr.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "omit",
+    "bug",
+    "mvr"
+  ],
+  "author": "Michael Belousov",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/MichaelBelousov/ts-omit-bug-mvr/issues"
+  },
+  "homepage": "https://github.com/MichaelBelousov/ts-omit-bug-mvr#readme"
+}
