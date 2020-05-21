@@ -35,6 +35,6 @@
     "@bentley/product-settings-client": "^2.1.0-dev.17",
     "@bentley/ui-abstract": "^2.1.0-dev.17",
     "@bentley/webgl-compatibility": "^2.1.0-dev.17",
-    "typescript": "^3.7.5"
+    "typescript": "^3.9.3"
   }
 }
